@@ -1,5 +1,8 @@
 import snap
 
+# This is the solution from Guo Shan, who is a pretty girl and genius
+# Phd student. Her solution helps me a lot to impove my idea!
+
 # 	1)The number of weakly connected components in the network
 '''
 # load the edge list
