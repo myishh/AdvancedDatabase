@@ -1,6 +1,6 @@
 # P3 of hw1
 import snap
-'''
+
 # 1) The number of weakly connected components
 g1 = snap.LoadEdgeList(snap.PNGraph, "stackoverflow-Java.txt", 0, 1)
 Components = snap.TCnComV()
@@ -55,7 +55,7 @@ for ele in PRankH:
 		max_index[2] = ele
 
 print "Top 3 most central nodes by PageRank Score", max_index[2]
-'''
+
 # 4)
 g4 = snap.LoadEdgeList(snap.PNGraph, "stackoverflow-Java.txt", 0, 1)
 hub = snap.TIntFltH()
@@ -109,4 +109,5 @@ for ele in aut:
 		max_index_aut[2] = ele
 
 print "Top 3 Auth Nodes:\t", max_index_aut
+
 
