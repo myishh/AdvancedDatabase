@@ -1,4 +1,4 @@
-#This is the 1st try of hw1
+#This is the 1st try of hw1, not the official solution
 import snap
 
 # I
